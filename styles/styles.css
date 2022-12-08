@@ -1,0 +1,400 @@
+h2 {
+    color: rgb(21, 21, 66);
+    font-size: 25px;
+}
+
+h3 {
+    color: black;
+}
+
+h5 {
+    font-weight: normal;
+    font-size: 15px;
+}
+
+.review-header {
+    text-align: left;
+    color: black;
+}
+
+header {
+    background-color: white;
+    padding: 1px 10px 1px 10px;
+}
+
+header .title {
+    color: #11669c;
+    font-weight: 200em;
+    padding: 0 0;
+    font-size: 50px;
+    letter-spacing: 1px;
+}
+
+.filter-results {
+    font-weight: normal;
+    padding-left: 0;
+}
+
+.home-submission {
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.book-title {
+    text-decoration: none;
+    color: black;
+    font-style: italic;
+    font-weight: 300em;
+    padding-left: 3px;
+    line-height: 1px;
+    font-size: 17px;
+}
+
+.delete-review {
+    text-align: center;
+    font-size: 25px;
+}
+
+.title-head {
+    color: black;
+    margin-bottom: 0;
+    font-size: 33px;
+    /* 33px */
+    line-height: 1px;
+    letter-spacing: 1.2px;
+}
+
+header a.nav-stuff:hover {
+    color: #a3675e;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.current_page a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.row a.book-title {
+    opacity: 40%;
+}
+
+.row p:hover {
+    font-weight: bold;
+}
+
+.row .book-title:hover {
+    opacity: 100%;
+}
+
+.submit-review {
+    text-align: center;
+    font-weight: normal;
+}
+
+form div {
+    margin: 8px 0;
+    display: flex;
+}
+
+form label,
+.label_align {
+    width: 240px;
+    text-align: right;
+    margin: 0;
+}
+
+form input,
+form textarea {
+    margin: 0 4px;
+    justify-content: right;
+}
+
+.form-align {
+    margin-left: 30%;
+}
+
+.form-header {
+    text-align: center;
+}
+
+.reasons-flex {
+    display: flex;
+    flex-direction: column;
+    padding-left: 3px;
+}
+
+.reasons-flex div {
+    margin: 0;
+}
+
+.reasons-flex label {
+    text-align: left;
+    height: 25px;
+}
+
+.tags-flex {
+    display: flex;
+    margin: 0px;
+}
+
+.align-right-login {
+    margin-left: 370px;
+}
+
+.align-right {
+    margin-left: 500px;
+}
+
+.login {
+    list-style-type: none;
+}
+
+nav {
+    display: inline;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    border-top: 1px solid rgba(151, 151, 151, 0.5);
+    padding: 15px;
+    border-bottom: 1px solid rgba(151, 151, 151, 0.5);
+    text-decoration: none;
+}
+
+nav li {
+    margin: 0;
+    padding: 10px;
+    display: inline;
+}
+
+footer {
+    padding: 20px 20px;
+    background-color: #a3675e;
+    color: white;
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+footer a {
+    font-weight: normal;
+    color: white;
+}
+
+body {
+    margin: 0 auto;
+}
+
+.confirmation {
+    text-align: center;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.hidden {
+    display: none;
+}
+
+.flex {
+    display: flex;
+    padding-left: 13%;
+    padding-right: 13%;
+    padding-bottom: 30px;
+}
+
+.feedback {
+    color: #dc341e;
+    padding-bottom: 7px;
+    margin-bottom: -4px;
+    padding-left: 150px;
+}
+
+.tag-feedback {
+    color: #dc341e;
+}
+
+.tag-align button {
+    margin-top: 5px;
+}
+
+.flex-box-content1 {
+    flex: 30%;
+    padding-top: 5%;
+}
+
+.flex-box-content2 {
+    padding-left: 10px;
+    flex: 70%;
+}
+
+.class-search {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: rgba(214, 168, 15, 0.897);
+    /* C2847A */
+}
+
+.format {
+    padding-top: 100px;
+    padding-bottom: 20px;
+}
+
+.format input {
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+.format button {
+    display: block;
+}
+
+.filter label {
+    text-align: left;
+}
+
+.group_label_input {
+    padding-bottom: 12px;
+}
+
+.tag-align {
+    align-items: left;
+}
+
+.no-classes {
+    padding-top: 100px;
+    color: #2e3c61;
+    text-align: left;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.details {
+    font-size: 14px;
+    color: rgb(0, 0, 0);
+    line-height: .9em;
+}
+
+.source-details {
+    font-size: 10px;
+    color: rgb(70, 66, 66);
+}
+
+.confirmation {
+    text-align: center;
+    font-size: 24px;
+    padding-bottom: 20px;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+    color: #4F695D;
+}
+
+.bottom-right {
+    padding-right: 0;
+}
+
+.sign-in {
+    padding-left: 30%;
+}
+
+.sign-in p {
+    padding-left: 14%;
+}
+
+.align-center {
+    padding-left: 35%;
+}
+
+.book-pics {
+    height: 400px;
+}
+
+.row {
+    display: flex;
+    padding-bottom: 20px;
+}
+
+.row div {
+    flex: 1;
+}
+
+.book img {
+    height: 500px;
+    padding-left: 15%;
+}
+
+.book-author {
+    display: flex;
+    justify-content: center;
+    padding-top: 3%;
+}
+
+.review-top {
+    padding-top: 14%;
+}
+
+.review-content {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.edit-mode {
+    padding-left: 10%;
+    padding-bottom: 5%;
+}
+
+.upload {
+    padding-left: 20%;
+}
+
+.center {
+    text-align: center;
+    font-weight: normal;
+}
+
+.tag-label {
+    text-align: left;
+    width: 100px;
+}
+
+.text-area-container {
+    display: flex;
+}
+
+.form-flex {
+    display: flex;
+}
+
+.form-flex2 {
+    display: block;
+}
+
+.text-area-container label {
+    width: 150px;
+}
+
+.edit button {
+    margin-left: 96%;
+}
+
+.text-area-container div {
+    display: block;
+    padding-left: 30px;
+}
+
+.edit .feedback {
+    margin-top: 0;
+}
